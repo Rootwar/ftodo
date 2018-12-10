@@ -1,0 +1,23 @@
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{js, css}]
+charset = utf-8
+
+# Indentation for all JS 
+[*.js]
+indent_size = 4
+indent_style = space
+
+# Indentation for all SCSS files
+[*.css]
+indent_size = 2
+indent_style = space
+
+# Matches the exact files either package.json 
+[package.json]
+indent_size = 2
+indent_style = space

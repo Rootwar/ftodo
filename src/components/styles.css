@@ -1,0 +1,37 @@
+.app {
+  height: 100%;
+}
+
+header {
+  background-color: #587D51;
+  font-family: "Open Sans";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 7px 0; 
+}
+
+.title {
+  text-shadow: 0 -2px 0 #274021;
+  color: #e2ffd9;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+  margin: 0 30px 0 0;
+  float: left; 
+}
+
+.outside-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px; 
+}
+
+main {
+  background-image: radial-gradient(#5cb85c, #274021);
+  font-family: "Open Sans";
+  padding: 85px 0 15px;
+  min-height: 100%;
+}

@@ -1,0 +1,44 @@
+.todo-item {
+  fill: #e2ffd9;
+  color: #e2ffd9;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 10px 15px; 
+  border-radius: 3px;
+}
+
+.todo-item:nth-child(odd) {
+  fill: #0a3405;
+  color: #0a3405;
+  background-color: #6ada4f;
+
+
+}
+
+.todo-item.active {
+  text-decoration: line-through; 
+}
+
+.todo-state {
+  opacity: 1;
+  float: right;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 3px 0 0 ;
+  position: relative;
+  transition: .2s opacity;
+  background-color: transparent;
+}
+
+.todo-state:hover {
+  opacity: .5;
+}
+
+.todo-state:focus {
+  outline: none;
+}
+
+.todo-state:active {
+  opacity: 1;
+}
